@@ -1,0 +1,75 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/matthewpaden/Projects/PDF_Redact/PDF_Redact/PDF_Redact.csproj": {}
+  },
+  "projects": {
+    "/Users/matthewpaden/Projects/PDF_Redact/PDF_Redact/PDF_Redact.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/matthewpaden/Projects/PDF_Redact/PDF_Redact/PDF_Redact.csproj",
+        "projectName": "PDF_Redact",
+        "projectPath": "/Users/matthewpaden/Projects/PDF_Redact/PDF_Redact/PDF_Redact.csproj",
+        "packagesPath": "/Users/matthewpaden/.nuget/packages/",
+        "outputPath": "/Users/matthewpaden/Projects/PDF_Redact/PDF_Redact/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/matthewpaden/.config/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "CommandLineParser": {
+              "target": "Package",
+              "version": "[2.7.82, )"
+            },
+            "itext7": {
+              "target": "Package",
+              "version": "[7.1.10, )"
+            },
+            "itext7.pdfsweep": {
+              "target": "Package",
+              "version": "[2.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.101/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
